@@ -1,6 +1,56 @@
+.body{
+    background-image: url(/archivos/6072166_3137991.jpg);
+    position: relative; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+p{
+    color: black;
+}
 .header{
     display: flex;
+    background-color: rgb(234, 212, 255);
+    
 }
+
 nav{
-    float: inline-end;
+    margin-top: 30px;
+}
+nav a{
+    background-color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.video{
+    height: 500px;
+    width: 700px;
+    margin-left: 100px;
+}
+
+nav{
+    float:inline-start;
+
+
+}
+
+.juegos{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(255, 255, 255, 0.696);
+    padding: 10px 0;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
 }
