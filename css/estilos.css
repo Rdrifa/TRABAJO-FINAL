@@ -1,19 +1,16 @@
 .body{
-    background-image: url(/archivos/6072166_3137991.jpg);
-    position: relative; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    color: white;
+    background: linear-gradient(rgb(33, 29, 118),rgb(7, 12, 41));
 }
 p{
     color: black;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    margin-left: 200px;
 }
 .header{
-    display: flex;
-    background-color: rgb(234, 212, 255);
-    
+    background: linear-gradient(to bottom , rgb(21, 21, 100) 50%, rgb(22, 14, 108) 50%);
+    border-radius: 10px;
 }
 
 nav{
