@@ -134,10 +134,12 @@ footer img{
     margin-left: 20px;
 
 }
-footer img, .juegos img {
+footer img,
+.juegos img {
     transition: transform .2s; 
 }
  
-footer img, .juegos img:hover {
+footer img:hover, 
+.juegos img:hover {
     transform: scale(1.5); 
 }
